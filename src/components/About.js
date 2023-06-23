@@ -76,8 +76,9 @@ export default function About() {
             <Image
               className="object-cover object-center rounded"
               alt="me-sitting-down"
-              src="./sideeye.png"
-             
+              src="/sideeye.png"
+            height={400}
+            width={400}
             />
 
           </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Image from 'next/image'
+import Me from "../../public/sideeye.png"
 
 
 export default function About() {
@@ -76,9 +77,8 @@ export default function About() {
             <Image
               className="object-cover object-center rounded"
               alt="me-sitting-down"
-              src="/sideeye.png"
-            height={400}
-            width={400}
+              src={Me}
+     
             />
 
           </div>

@@ -8,7 +8,6 @@ const images = [
   "/subway.jpg",
   "/japantemple.jpg",
   "/up.png",
-  "/camp.jpg",
   "/mevegas.jpg",
   "/ayafire.jpg",
   "/treeEcua.jpg",

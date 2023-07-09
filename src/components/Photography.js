@@ -22,7 +22,7 @@ export default function Photography() {
     { url: "/static/images/PRbooks.jpg", caption: "Curbside bookstore - San Juan, PR"},
     { url: "/static/images/taranme.png", caption: "Waterfalls and Tara - Chang Mai, TH"},
     { url: "/static/images/me+court.jpg", caption: "Courtney & I + cig shirts - Bangkok, TH"},
-    { url: "/static/images/shama2.png", caption: "Learned that shamans doesn't smile during ceremonies - Maca, EC"},
+    { url: "/static/images/shama2.png", caption: "Photoshoot with beautiful friends  helping out- Jersey City, NJ"},
     { url: "/static/images/shaman.jpg", caption: "Shamans don't smile during ceremonies - Maca, EC"},
     { url: "/static/images/redcany.jpg", caption: "Red Rock Canyon - NV"},
     { url: "/static/images/artisthousebkk.jpg", caption: "Artist house outskirts of Bkk - Bangkok, TH"},

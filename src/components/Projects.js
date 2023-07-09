@@ -9,9 +9,9 @@ export default function Projects() {
         <div className="flex flex-col w-full mb-20">
           <CodeIcon className="mx-auto inline-block w-10 mb-4 yahGreen" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font mb-4 text-white">
-            Code</h1>
+         Full Stack Development</h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-          Front End Development. For more projects check out my <a href="https://github.com/LLRamirez" ><u>Github.</u></a> (See older stuff <a href="https://github.com/Linrmz007"><u>here</u></a> )
+        For more projects check my <a href="https://github.com/LLRamirez" ><u>Github.</u></a> ( older stuff <a href="https://github.com/Linrmz007"><u>here</u></a> )
           </p>
         </div>
         <div className="flex flex-wrap -m-4">

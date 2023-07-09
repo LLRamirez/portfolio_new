@@ -6,7 +6,7 @@ export default function Skills() {
   return (
     <section id="skills">
       <div className="container px-5 py-10 mx-auto">
-        <div className="text-center mb-20">
+        <div className="text-center">
           <ChipIcon className="w-10 inline-block mb-4 yahGreen" />
           <h1 className="sm:text-4xl text-3xl font-medium title-font text-white mb-4">
             Skills
@@ -15,25 +15,9 @@ export default function Skills() {
             Specialization in Front-End Development, JS frameworks & working rooms in the flesh.
           </p>
           <br/>
-          {/* <p>Scroll below.</p>  */}
         </div>
         <div>
-          <p className="sm:text-3xl text-2xl font-medium text-white text-center mb-4">Technical</p>
-        </div>
-        <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
-          {skills.map((skill) => (
-            <div key={skill} className="p-2 sm:w-1/2 w-full">
-              <div className="bg-gray-800 rounded flex p-4 h-full items-center">
-                <BadgeCheckIcon className="text-green-400 w-6 h-6 flex-shrink-0 mr-4" />
-                <span className="title-font font-medium text-white">
-                  {skill}
-                </span>
-              </div>
-            </div>
-          ))}
-        </div>
-        <div>
-          <p className="sm:text-3xl text-2xl font-medium text-white text-center mb-4 pt-8">Non-Technical</p>
+          <p className="sm:text-3xl text-2xl font-medium text-white text-center mb-4 pt-8">Non-Techy</p>
         </div>
         <div className="flex flex-wrap lg:w-4/5 sm:mx-auto sm:mb-2 -mx-2">
           {nonTechskills.map((nonTech) => (

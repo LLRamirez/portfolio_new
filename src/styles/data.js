@@ -73,19 +73,10 @@ export const projects = [
   },
 ];
 
-export const testimonials = [""];
-
-
-export const skills = [
-  "JavaScript",
-  "React",
-  "NodeJs",
-  "NextJs",
-];
 
 export const nonTechskills = [
   "Writer",
   "Educator",
-  "Troubleshooting & Customer Service",
-  "Fashion Model"
+  "Resourceful Problem Solver",
+  "Modelo",
 ];

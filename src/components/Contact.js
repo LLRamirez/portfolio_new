@@ -30,10 +30,10 @@ export default function Contact() {
         </div>
         <div className="w-full">
 <div className="flex flex-row justify-between text-xs">
-        <p>© All rights reserved</p>
+        <p className="text-white">Made by <b>Lindsey Ramirez</b>, 2023</p>
 
         <a href="#about" class="hover:text-white text-sm">
-        <p>Back ^ top</p>
+        <p className="text-white"> ^ Top</p>
         </a>
         </div>
 </div>

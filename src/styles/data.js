@@ -78,5 +78,5 @@ export const nonTechskills = [
   "Writer",
   "Educator",
   "Resourceful Problem Solver",
-  "Modelo",
+  "Modelo & Muse",
 ];

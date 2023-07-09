@@ -99,12 +99,12 @@ export default function About() {
           <img
             className="object-cover object-center rounded"
             alt="me-sitting-down"
-            src="/static/images/sideeye.png"
+            src="/static/images/bald.jpg"
           />
             <Image
             className="object-cover object-center rounded"
             alt="me-sitting-down"
-            src="/static/images/sideeye.png"
+            src="/static/images/bald.jpg"
           />
         </div>
       </div>

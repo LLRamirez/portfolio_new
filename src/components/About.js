@@ -96,10 +96,10 @@ export default function About() {
           </div>
         </div>
         <div className="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
-          <Image
+          <img
             className="object-cover object-center rounded"
             alt="me-sitting-down"
-            src="/static/images/fieldvercel.png"
+            src="/static/images/sideeye.png"
           />
         </div>
       </div>

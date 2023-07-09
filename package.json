@@ -17,7 +17,7 @@
     "eslint-config-next": "13.1.6",
     "gray-matter": "^4.0.3",
     "marked": "^4.2.12",
-    "next": "13.1.6",
+    "next": "12.3.1",
     "react": "^18.2.0",
     "react-animated-text": "^0.1.4",
     "react-bootstrap": "^2.7.2",

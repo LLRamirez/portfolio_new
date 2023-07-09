@@ -101,6 +101,11 @@ export default function About() {
             alt="me-sitting-down"
             src="/static/images/sideeye.png"
           />
+            <Image
+            className="object-cover object-center rounded"
+            alt="me-sitting-down"
+            src="/static/images/sideeye.png"
+          />
         </div>
       </div>
     </section>

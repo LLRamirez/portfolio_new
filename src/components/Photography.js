@@ -59,7 +59,7 @@ export default function Photography() {
   ];
 
   return (
-    <div id="travel" className="mt-12">
+    <div id="travel" className="mt-12 text-white">
       <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
         <Masonry>
           {newImages.map((image, i) => (
@@ -72,7 +72,9 @@ export default function Photography() {
               onClick={() => setselectedImage(image.url)}
             />
             {
-              selectedImage === image.url && (<div>{image.caption}</div>)
+              selectedImage === image.url && (<div>
+              <p className="text-white">{image.caption}</p>
+              </div>)
             }
             </>
           ))}

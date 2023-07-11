@@ -7,7 +7,7 @@ export default function Photography() {
   const [selectedImage, setselectedImage ] = useState('');
 
   const newImages = [
-    { url: "/static/images/subway.jpg", caption: "Took the 1 train in Dyckman, solo-dolo - New York, NY",},
+    { url: "/static/images/subway.jpg", caption: "1 train off Dyckman, solo-dolo - New York, NY",},
     { url: "/static/images/japantemple.jpg", caption: "Temple by my apartment - Nagoya, JP"},
     { url: "/static/images/up.png", caption: "Photoshoot at the crib - Jersey City, NJ"},
     { url: "/static/images/mevegas.jpg", caption: "Climbing rocks and hking in the desert, colors in nature are my favorite - Red Rock Canyon, NV"},
@@ -60,6 +60,7 @@ export default function Photography() {
 
   return (
     <div id="travel" className="mt-12 text-white">
+      <p className="font-semibold yahGreen text-center">Tap or Click for the caption</p>
       <ResponsiveMasonry columnsCountBreakPoints={{ 350: 1, 750: 2, 900: 3 }}>
         <Masonry>
           {newImages.map((image, i) => (
